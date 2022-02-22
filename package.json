@@ -1,5 +1,5 @@
 {
-  "name": "restaurant-frontend",
+  "name": "customer-frontend",
   "private": true,
   "scripts": {
     "dev": "next dev",
