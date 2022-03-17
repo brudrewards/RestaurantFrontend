@@ -22,9 +22,16 @@ function register() {
     const handleEmail = (e) => {
         setEmail(e.target.value);
         if (e.target.value.length < 1) {
-            setEmailError("Enter your registered email and get code");
+            setEmailError("Enter your registered email and get codeç");
         }
     }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(email);
+        console.log("submit");
+        router.push("/home");
+    };
 
 
     return (
@@ -67,11 +74,11 @@ function register() {
                         <Button style={{
 
 
-                            position: 'relative',
-                            marginTop: '100%',
-                            marginLeft: '2px'
 
-                        }} fullWidth={true} variant="rounded">Get Code</Button>
+                            marginTop: '100px',
+
+
+                        }} fullWidth={true} onClick={handleSubmit} variant="rounded">Get Code</Button>
 
                     </form>
                 </div>
