@@ -22,7 +22,7 @@ function register() {
     const handleEmail = (e) => {
         setEmail(e.target.value);
         if (e.target.value.length < 1) {
-            setEmailError("Enter your registered email and get codeç");
+            setEmailError("Enter your registered email and get code");
         }
     }
 
@@ -30,7 +30,7 @@ function register() {
         e.preventDefault();
         console.log(email);
         console.log("submit");
-        router.push("/home");
+
     };
 
 
