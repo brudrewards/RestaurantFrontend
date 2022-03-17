@@ -2,6 +2,9 @@ import Head from "next/head";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
+
+
+
 const MainLayout = ({
   title = "",
   children,
@@ -11,13 +14,16 @@ const MainLayout = ({
 }) => {
   return (
     <div>
+
       <Head>
         <title>Brud Rewards {title ? `| ${title}` : ""}</title>
         <meta name="description" content={description} />
       </Head>
       <Header />
       <main style={{ ...style }}>{children}</main>
+
       <Footer />
+
     </div>
   );
 };
