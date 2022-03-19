@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState, React } from 'react';
 import Container from '@mui/material/Container';
 import logo from '../public/assets/logo.png'
 import Image from 'next/image'
@@ -8,11 +8,13 @@ import Button from '@mui/material/Button'
 import useStyles from '../styles/pages/registerStyles';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import { FormLabel } from '@mui/material';
 
 
 
-function register() {
+
+
+
+const Register = () => {
 
     const classes = useStyles();
 
@@ -48,7 +50,7 @@ function register() {
                 </div>
 
                 <div style={{ marginTop: '50px' }}>
-                    <Typography gutterBottom variant="h5">Login your account</Typography>
+                    <Typography gutterBottom variant="h5">Login to your account</Typography>
                     <form onSubmit={(e) => e.preventDefault()}>
                         {
                             emailError ?
@@ -91,4 +93,4 @@ function register() {
     )
 }
 
-export default register
+export default Register
