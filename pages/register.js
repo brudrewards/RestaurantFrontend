@@ -15,7 +15,7 @@ import TextField from '@mui/material/TextField';
 
 const Register = () => {
 
-    const classes = useStyles();
+
 
     const [email, setEmail] = useState("");
     const [emailError, setEmailError] = useState("");
