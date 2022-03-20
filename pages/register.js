@@ -3,9 +3,8 @@ import { useState, React } from 'react';
 import Container from '@mui/material/Container';
 import logo from '../public/assets/logo.png'
 import Image from 'next/image'
-import { Typography } from "@material-ui/core"
-import Button from '@mui/material/Button'
-import useStyles from '../styles/pages/registerStyles';
+import { Typography } from '@mui/material';
+import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
