@@ -38,16 +38,24 @@ const Login = () => {
 
   return (
     <MainLayout title="Login">
-      <Grid container direction="column" alignContent="center" spacing={4}>
-        <Grid item margin="4rem">
+      <Grid
+        container
+        direction="column"
+        alignContent="center"
+        spacing={4}
+        display="flex"
+        height="100vh"
+        justifyContent="center"
+      >
+        <Grid item display="flex" justifyContent="center">
           <Image
             src={Logo}
             alt="Logo"
-            layout="responsive"
-            sizes="5vw"
-            // width={5}
-            // height={5}
+            layout="intrinsic"
+            width={150}
+            height={100}
             priority={true}
+            quality={75}
             onClick={() => router.push("/")}
           />
         </Grid>
