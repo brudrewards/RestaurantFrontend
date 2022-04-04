@@ -1,0 +1,16 @@
+@import '#scss/_variables.scss';
+@import '#scss/_mixins';
+@import '#scss/_mediaQueryMixins';
+@import '#scss/_flex';
+
+.button {
+  width: 100%;
+  background: $themeOrange;
+  border: none;
+  @include border-radius(60px);
+  font-weight: 600;
+  font-size: $defaulFontSize + 10;
+  text-align: center;
+  color: $white;
+  padding: 10px;
+}
