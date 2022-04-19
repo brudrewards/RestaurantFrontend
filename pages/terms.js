@@ -1,4 +1,4 @@
-import { Container, Typography as Font } from "@mui/material";
+import { Container, Box, Typography as Font } from "@mui/material";
 import React from "react";
 import MainLayout from "../layouts/mainLayout/MainLayout";
 
@@ -47,19 +47,21 @@ const Terms = () => {
           Rewards filings with the Securities and Exchange Commission, if
           applicable.
         </Font>
-        <Font variant="body1" margin="2rem 0">
-          These terms include an Arbitration provision that governs any disputes
-          between you and us. This provision will:
-          <li>Eliminate your right to a trial by jury; and</li>
-          <li>
-            Substantially affect your rights, including preventing you from
-            bringing, joining or participating in class or consolidated
-            proceedings.
-          </li>
-          You agree that we may provide notices, disclosures and amendments to
-          these Terms by electronic means, including by changing these Terms by
-          posting revisions on the Sites.
-        </Font>
+        <Box margin="2rem 0">
+          <ul>
+            These terms include an Arbitration provision that governs any
+            disputes between you and us. This provision will:
+            <li>Eliminate your right to a trial by jury; and</li>
+            <li>
+              Substantially affect your rights, including preventing you from
+              bringing, joining or participating in class or consolidated
+              proceedings.
+            </li>
+            You agree that we may provide notices, disclosures and amendments to
+            these Terms by electronic means, including by changing these Terms
+            by posting revisions on the Sites.
+          </ul>
+        </Box>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
           Eligibility
         </Font>
@@ -172,12 +174,12 @@ const Terms = () => {
           copyright you own or control, you may file a notification of such
           infringement with our Designated Agent as set forth below.
         </Font>
-        <Font variant="body1" margin="2rem 0">
+        <Box margin="2rem 0">
           <div>BRUD Rewards LLC</div>
           <div>Customer Care</div>
           PO Box 570816, Tarzana, CA 91367
           <div>info@BRUDRewards.com</div>
-        </Font>
+        </Box>
         <Font variant="body1" margin="2rem 0">
           Please see 17 U.S.C. §512(c)(3) for the requirements of a proper
           notification. You should note that if you knowingly misrepresent in
@@ -662,12 +664,12 @@ const Terms = () => {
           Any questions, complaints, or claims regarding the Sites should be
           directed to:
         </Font>
-        <Font variant="body1" margin="2rem 0">
+        <Box margin="2rem 0">
           <div>BRUD Rewards LLC</div>
           <div>Customer Care (info@BRUDRewards.com)</div>
           <div>PO Box 570816</div>
           <div>Tarzana, CA 91357</div>
-        </Font>
+        </Box>
       </Container>
     </MainLayout>
   );
