@@ -1,4 +1,4 @@
-import { Container, Grid, Box, Typography as Font } from "@mui/material";
+import { Container, Grid, Typography as Font } from "@mui/material";
 import React from "react";
 import MainLayout from "../layouts/mainLayout/MainLayout";
 import Image from "next/image";
