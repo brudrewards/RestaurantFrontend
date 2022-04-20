@@ -1,5 +1,6 @@
 import axios from 'axios'
 const url = 'https://brud-new-1.herokuapp.com/api'
+//https://documenter.getpostman.com/view/19033947/UVksLDzd
 
 export const api = axios.create({
   baseURL: url,
