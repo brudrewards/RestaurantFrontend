@@ -16,7 +16,7 @@ const About = () => {
           About Brud
         </Font>
         <Font variant="h5" fontWeight="bold" margin="2rem 0" align="center">
-          What is BRU'D Rewards{" "}
+          What is BRU&rsquo;D Rewards
         </Font>
         <Font variant="body1">
           BRU’D Rewards is a mobile ordering and in-person coffee shop ordering
@@ -38,9 +38,9 @@ const About = () => {
           their mobile apps. Similarly, mom-and-pop-owned coffee shops often
           create a loyalty rewards program through a punch or stamp card, but
           people often lose them or forget them at home. We are creating a way
-          that consumers don't need to feel locked into one brand of coffee
-          shops, while also offering a loyalty rewards program to incentivize
-          them to continue supporting local coffee shops.
+          that consumers don&rsquo;t need to feel locked into one brand of
+          coffee shops, while also offering a loyalty rewards program to
+          incentivize them to continue supporting local coffee shops.
         </Font>
         <Grid
           container
@@ -206,7 +206,7 @@ const About = () => {
               Values of excellence, integrity, and service before self. “Be
               happy and let others be Happy” is the mantra he lives his life by.
               He’s a big-time foodie and loves mom-and-pop restaurants for their
-              unique taste and aesthetics. After hearing about BRU'D, the
+              unique taste and aesthetics. After hearing about BRU&rsquo;D, the
               concept behind it excited him and joined the awesome team in a
               heartbeat! 
             </Font>

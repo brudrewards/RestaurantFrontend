@@ -89,7 +89,7 @@ const Terms = () => {
           and accept all risks of unauthorized access.
         </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
-          Privacy{" "}
+          Privacy
         </Font>
         <Font variant="body1" margin="2rem 0">
           Please read the Privacy Policy carefully to understand how BRUD
@@ -167,7 +167,7 @@ const Terms = () => {
           replacements, in which case the separate terms will apply.
         </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
-          Digital Millennium Copyright Act ("DMCA") Notice
+          Digital Millennium Copyright Act (&quot;DMCA&quot;) Notice
         </Font>
         <Font variant="body1" margin="2rem 0">
           If you believe any material available via the Sites infringes a
@@ -184,10 +184,10 @@ const Terms = () => {
           Please see 17 U.S.C. §512(c)(3) for the requirements of a proper
           notification. You should note that if you knowingly misrepresent in
           your notification that the material or activity is infringing, you
-          will be liable for any damages, including costs and attorneys' fees,
-          incurred by us or the alleged infringer as the result of our relying
-          upon such misrepresentation in removing or disabling access to the
-          material or activity claimed to be infringing.
+          will be liable for any damages, including costs and attorneys&rsquo;
+          fees, incurred by us or the alleged infringer as the result of our
+          relying upon such misrepresentation in removing or disabling access to
+          the material or activity claimed to be infringing.
         </Font>
         <Font variant="body1" margin="2rem 0">
           If a notice of copyright infringement has been filed against material
@@ -267,20 +267,21 @@ const Terms = () => {
           If you become aware of User Content that you believe violates these
           Terms (with the exception of copyright infringement which is addressed
           in the Digital Millennium Copyright Act Notice section), you may
-          report it by clicking on the "Report Abuse" or "Flag" links located
-          just below each piece of User Content. Enforcement of these Terms
-          however, is solely in our discretion and absence of enforcement in
-          some instances does not constitute a waiver of our right to enforce
-          the Terms in other instances. In addition, these Terms do not create
-          any private right of action on the part of any third party or any
-          reasonable expectation or promise that the Sites will not contain any
-          content that is prohibited by these Terms. Although BRUD Rewards has
-          no obligation to screen, edit or monitor any of the User Content
-          posted on the Sites, BRUD Rewards reserves the right, and has absolute
-          discretion, to remove, screen or edit any User Content on the Sites at
-          any time and for any reason without notice. You are solely responsible
-          for creating backup copies and replacing any User Content you post or
-          store on the Sites at your sole cost and expense.
+          report it by clicking on the&quot;Report Abuse&quot;
+          or&quot;Flag&quot; links located just below each piece of User
+          Content. Enforcement of these Terms however, is solely in our
+          discretion and absence of enforcement in some instances does not
+          constitute a waiver of our right to enforce the Terms in other
+          instances. In addition, these Terms do not create any private right of
+          action on the part of any third party or any reasonable expectation or
+          promise that the Sites will not contain any content that is prohibited
+          by these Terms. Although BRUD Rewards has no obligation to screen,
+          edit or monitor any of the User Content posted on the Sites, BRUD
+          Rewards reserves the right, and has absolute discretion, to remove,
+          screen or edit any User Content on the Sites at any time and for any
+          reason without notice. You are solely responsible for creating backup
+          copies and replacing any User Content you post or store on the Sites
+          at your sole cost and expense.
         </Font>
         <Font variant="body1" margin="2rem 0">
           If you are viewing the Sites on a public computer or are otherwise
@@ -317,13 +318,14 @@ const Terms = () => {
           questions, comments, feedback, suggestions, ideas, improvements,
           plans, notes, drawings, original or creative materials or other
           information about BRUD Rewards, our Sites and our products
-          (collectively, "Ideas") either through the BRUDRewards.com portal or
-          otherwise. The Ideas you submit are voluntary, non-confidential,
-          gratuitous and non-committal. Please do not send us Ideas if you
-          expect to be paid or want to continue to own or claim rights in them;
-          your Ideas might be great, but we may have already had the same or
-          similar idea and we do not want disputes. You must also inform us if
-          you have a pending or registered patent relative to the Idea.
+          (collectively,&quot;Ideas&quot;) either through the BRUDRewards.com
+          portal or otherwise. The Ideas you submit are voluntary,
+          non-confidential, gratuitous and non-committal. Please do not send us
+          Ideas if you expect to be paid or want to continue to own or claim
+          rights in them; your Ideas might be great, but we may have already had
+          the same or similar idea and we do not want disputes. You must also
+          inform us if you have a pending or registered patent relative to the
+          Idea.
         </Font>
         <Font variant="body1" margin="2rem 0">
           You represent and warrant that your Idea is not subject to any
@@ -360,7 +362,7 @@ const Terms = () => {
           site does not contain any obscene, pornographic, sexually explicit or
           illegal material or any material that is offensive, harassing or
           otherwise objectionable. This limited right may be revoked at any
-          time. In addition, you may not use BRUD Rewards' logo or other
+          time. In addition, you may not use BRUD Rewards&rsquo; logo or other
           proprietary graphics to link to our Sites without our express written
           permission. Further, you may not use, frame or utilize framing
           techniques to enclose any BRUD Rewards trademark, logo or other
@@ -432,11 +434,11 @@ const Terms = () => {
           INTERRUPTIONS, DELETION OF FILES OR EMAIL, ERRORS, DEFECTS, VIRUSES,
           DELAYS IN OPERATION OR TRANSMISSION OR ANY FAILURE OF PERFORMANCE,
           WHETHER OR NOT RESULTING FROM ACTS OF GOD, COMMUNICATIONS FAILURE,
-          THEFT, DESTRUCTION OR UNAUTHORIZED ACCESS TO BRUD REWARDS' RECORDS,
-          PROGRAMS OR SERVICES; AND (B) BE LIABLE TO THE USER FOR ANY INDIRECT,
-          SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES,
-          INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, LOST
-          PROFITS, LOSS, THEFT OR CORRUPTION OF USER INFORMATION, OR THE
+          THEFT, DESTRUCTION OR UNAUTHORIZED ACCESS TO BRUD REWARDS&rsquo;
+          RECORDS, PROGRAMS OR SERVICES; AND (B) BE LIABLE TO THE USER FOR ANY
+          INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY
+          DAMAGES, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+          LOST PROFITS, LOSS, THEFT OR CORRUPTION OF USER INFORMATION, OR THE
           INABILITY TO USE THE SITES OR ANY OF THEIR FEATURES. THE USER’S SOLE
           REMEDY IS TO CEASE USE OF THE SITES.
         </Font>
@@ -523,12 +525,12 @@ const Terms = () => {
           provide links to third-party websites or services that contain
           financial or investment information about BRUD Rewards. BRUD Rewards
           neither regularly monitors nor has control over the content of third
-          parties' statements or websites. Accordingly, BRUD Rewards does not
-          endorse or adopt, nor make any representations or warranties
+          parties&rsquo; statements or websites. Accordingly, BRUD Rewards does
+          not endorse or adopt, nor make any representations or warranties
           whatsoever regarding the accuracy or completeness, of those websites
           or any information contained therein, including, without limitation,
-          analysts' reports and stock quotes. Users visit these websites and use
-          the information contained therein at their own risk.
+          analysts&rsquo; reports and stock quotes. Users visit these websites
+          and use the information contained therein at their own risk.
         </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
           Arbitration
@@ -567,24 +569,25 @@ const Terms = () => {
         <Font variant="body1" margin="2rem 0">
           The arbitration of any dispute or claim shall be conducted in
           accordance with the rules of the American Arbitration Association
-          ("AAA"), including the AAA's Consumer Arbitration Rules (as
-          applicable), as modified by these Terms. The AAA Rules and information
-          about arbitration and fees are available online at www.adr.org. You
-          and we agree that these Terms evidence a transaction in interstate
-          commerce and that this arbitration provision will be interpreted and
-          enforced in accordance with the U.S. Federal Arbitration Act and
-          federal arbitration law, and will not be governed by state law. Any
-          arbitration will be held in a reasonably convenient location in the
-          state in which you reside or at another mutually agreed location. The
-          arbitration will be conducted in the English language. An arbitrator
-          may award on an individual basis any relief that would be available in
-          a court, including injunctive or declaratory relief to the extent
-          required to satisfy your individual claim, and must follow and enforce
-          these Terms as a court would. Any arbitration shall be confidential,
-          and neither you nor we may disclose the existence, content or results
-          of any arbitration, except as may be required by law or for purposes
-          of enforcement of the arbitration award. Judgment on any arbitration
-          award may be entered in any court having proper jurisdiction.
+          (&quot;AAA&quot;), including the AAA&rsquo;s Consumer Arbitration
+          Rules (as applicable), as modified by these Terms. The AAA Rules and
+          information about arbitration and fees are available online at
+          www.adr.org. You and we agree that these Terms evidence a transaction
+          in interstate commerce and that this arbitration provision will be
+          interpreted and enforced in accordance with the U.S. Federal
+          Arbitration Act and federal arbitration law, and will not be governed
+          by state law. Any arbitration will be held in a reasonably convenient
+          location in the state in which you reside or at another mutually
+          agreed location. The arbitration will be conducted in the English
+          language. An arbitrator may award on an individual basis any relief
+          that would be available in a court, including injunctive or
+          declaratory relief to the extent required to satisfy your individual
+          claim, and must follow and enforce these Terms as a court would. Any
+          arbitration shall be confidential, and neither you nor we may disclose
+          the existence, content or results of any arbitration, except as may be
+          required by law or for purposes of enforcement of the arbitration
+          award. Judgment on any arbitration award may be entered in any court
+          having proper jurisdiction.
         </Font>
         <Font variant="body1" margin="2rem 0">
           Costs of Arbitration. Upon filing of the arbitration demand, we will
@@ -626,7 +629,7 @@ const Terms = () => {
           jurisdiction of the federal and state courts in Los Angeles County,
           California, United States of America, for purposes of any legal action
           arising out of or related to the use of the Sites or these Terms.
-        </Font>{" "}
+        </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
           Termination
         </Font>
@@ -636,7 +639,7 @@ const Terms = () => {
           to use the Sites and to block or prevent your future access to and use
           of the Sites. BRUD Rewards’ failure or delay in taking such actions
           does not constitute a waiver of its rights to enforce these Terms.
-        </Font>{" "}
+        </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
           Changes
         </Font>
@@ -647,7 +650,7 @@ const Terms = () => {
           Continued use of the Sites following such changes or modifications to
           the Terms or other BRUD Rewards policies will constitute acceptance of
           such changes or modifications.
-        </Font>{" "}
+        </Font>
         <Font variant="h6" fontWeight="bold" margin="2rem 0">
           Severability
         </Font>
