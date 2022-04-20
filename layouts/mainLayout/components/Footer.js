@@ -1,5 +1,7 @@
+import { Grid } from "@mui/material";
+
 const Footer = () => {
-  return <footer>Footer</footer>;
+  return <Grid component='footer'></Grid>;
 };
 
 export default Footer;

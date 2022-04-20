@@ -1,6 +1,5 @@
 nav {
   width: 100%;
-  background-color: #e25630;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
@@ -28,5 +27,5 @@ nav.clear {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #000;
 }/*# sourceMappingURL=global.css.map */

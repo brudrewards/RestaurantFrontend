@@ -1,11 +1,11 @@
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from '../../components/navbar/Navbar'
 
-const Header = () => {
-  return (
-    <header>
-      <Navbar />
-    </header>
-  );
-};
+const Header = ({ search, ...props }) => {
+    return (
+        <header>
+            <Navbar search={search} />
+        </header>
+    )
+}
 
-export default Header;
+export default Header
