@@ -1,15 +1,13 @@
 // Component imports
-@import "./components/navbar";
+@import "./components/";
 
 // Page imports
 @import './pages/';
 
+//Layout import
+@import './layouts/';
+
 // Global CSS
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
 a {
   text-decoration: none;
   color: white;

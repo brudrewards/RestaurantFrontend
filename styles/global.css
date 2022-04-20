@@ -6,11 +6,24 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+nav.clear {
+  background-color: #fff;
+  margin-top: 10vh;
+}
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+.Register h5 {
+  margin-bottom: 100px;
+}
+.Register .Submit {
+  margin-top: 100px;
+}
+
+.CredLayout main {
+  padding: 10px;
+}
+.CredLayout .Logo {
+  margin-bottom: 50px;
+  width: 150px;
 }
 
 a {

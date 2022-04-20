@@ -3,7 +3,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { CacheProvider } from "@emotion/react";
 import "../styles/global.css";
 import createEmotionCache from "../utils/createEmotionCache";
-import theme from "../styles/themes/defaulttheme";
+import theme from "../styles/themes/defaultTheme";
 const clientSideEmotionCache = createEmotionCache();
 function MyApp(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
