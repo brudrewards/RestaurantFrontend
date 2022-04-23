@@ -77,12 +77,13 @@ const Footer = () => {
       </Grid>
       <Grid item>
         <Grid container justifyContent='center' spacing={3}>
-          <Grid item>
+          {/* No pages exists */}
+          {/* <Grid item>
             <YouTube color='primary' />
           </Grid>
           <Grid item>
             <Twitter color='primary' />
-          </Grid>
+          </Grid> */}
           <Grid item>
             <a
               href='https://www.facebook.com/brudrewards'
@@ -92,10 +93,20 @@ const Footer = () => {
             </a>
           </Grid>
           <Grid item>
-            <Instagram color='primary' />
+            <a
+              href='https://www.instagram.com/brudrewards/'
+              rel='noreferrer'
+              target='_blank'>
+              <Instagram color='primary' />
+            </a>
           </Grid>
           <Grid item>
-            <LinkedIn color='primary' />
+            <a
+              href='https://www.linkedin.com/company/bru-d-rewards/'
+              rel='noreferrer'
+              target='_blank'>
+              <LinkedIn color='primary' />
+            </a>
           </Grid>
         </Grid>
       </Grid>
