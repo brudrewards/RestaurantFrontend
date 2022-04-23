@@ -11,7 +11,7 @@ const MainLayout = ({
     ...props
 }) => {
     return (
-        <div>
+        <div className='MainLayout'>
             <Head>
                 <title>Brud Rewards {title ? `| ${title}` : ''}</title>
                 <meta name='description' content={description} />

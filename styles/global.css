@@ -25,6 +25,18 @@ nav.clear {
   width: 150px;
 }
 
+.MainLayout footer {
+  margin-top: 20px;
+  position: relative;
+  padding: 0px 20px 20px;
+}
+.MainLayout footer .Background {
+  z-index: -99;
+}
+.MainLayout footer span {
+  z-index: -99;
+}
+
 a {
   text-decoration: none;
   color: #000;
