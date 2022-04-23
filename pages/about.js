@@ -1,38 +1,35 @@
-import { Container, Grid, Typography as Font } from "@mui/material";
-import React from "react";
-import MainLayout from "../layouts/mainLayout/MainLayout";
-import Image from "next/image";
-import Doron from "../public/assets/team/Doron.png";
-import Jesus from "../public/assets/team/Jesus.png";
-import Shayan from "../public/assets/team/Shayan.png";
-import Roop from "../public/assets/team/Roop.png";
-import Harini from "../public/assets/team/Harini.png";
+import { Container, Grid, Typography as Font } from '@mui/material'
+import React from 'react'
+import MainLayout from '../layouts/mainLayout/MainLayout'
+import Image from 'next/image'
+import images from '../utils/images'
 
 const About = () => {
+  const { doron, jesus, harini, roop, shayan } = images
   return (
-    <MainLayout title="About">
+    <MainLayout title='About'>
       <Container>
-        <Font variant="h3" align="center" fontWeight="bold" margin="3rem 0">
+        <Font variant='h3' align='center' fontWeight='bold' margin='3rem 0'>
           About Brud
         </Font>
-        <Font variant="h5" fontWeight="bold" margin="2rem 0" align="center">
+        <Font variant='h5' fontWeight='bold' margin='2rem 0' align='center'>
           What is BRU&rsquo;D Rewards
         </Font>
-        <Font variant="body1">
+        <Font variant='body1'>
           BRU’D Rewards is a mobile ordering and in-person coffee shop ordering
           platform offering a generous loyalty rewards program to consumers
           looking to support locally-owned cafes. We differentiate by allowing
           consumers to redeem points earned at any partnered cafe, so they can
           experience a variety of unique cafes at any time.
         </Font>
-        <Font variant="h6" fontWeight="bold" margin="2rem 0">
+        <Font variant='h6' fontWeight='bold' margin='2rem 0'>
           Why we started
         </Font>
-        <Font variant="body1">
-          Large coffee shop{" "}
-          <Font component="span" fontWeight="bold">
+        <Font variant='body1'>
+          Large coffee shop{' '}
+          <Font component='span' fontWeight='bold'>
             CHAINS
-          </Font>{" "}
+          </Font>{' '}
           like Starbucks, Dunkin Donuts, and Pete’s Coffee incentivize customers
           to become brand loyal through steep loyalty rewards programs through
           their mobile apps. Similarly, mom-and-pop-owned coffee shops often
@@ -44,33 +41,35 @@ const About = () => {
         </Font>
         <Grid
           container
-          justifyContent="center"
+          justifyContent='center'
           sx={{ mt: 5, mb: 5 }}
-          spacing={2}
-        >
+          spacing={2}>
           <Grid
             item
             xs={6}
             sm={3}
             sx={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              boxShadow: "0.1rem 0.25rem 0.5rem #6b5b5742",
-              backgroundColor: "#e2563042",
-            }}
-          >
-            <Image src={Doron} alt="Doron" layout="responsive" quality={50} />
+              borderRadius: '50%',
+              overflow: 'hidden',
+              boxShadow: '0.1rem 0.25rem 0.5rem #6b5b5742',
+              backgroundColor: '#e2563042',
+            }}>
+            <Image
+              src={doron.src}
+              alt={doron.alt}
+              layout='responsive'
+              quality={50}
+            />
           </Grid>
           <Grid item xs={12} sm={9}>
             <Font
-              variant="h6"
-              fontWeight="bold"
-              margin="2rem 0"
-              textAlign="center"
-            >
+              variant='h6'
+              fontWeight='bold'
+              margin='2rem 0'
+              textAlign='center'>
               Doron Eliezer - Founder
             </Font>
-            <Font variant="body1">
+            <Font variant='body1'>
               Doron is a formally educated entrepreneur at Cal State LA and the
               founder of BRU’D Rewards. He has experience conceptualizing unique
               and innovative ideas and bringing them to life with a business
@@ -87,33 +86,35 @@ const About = () => {
 
         <Grid
           container
-          justifyContent="center"
+          justifyContent='center'
           sx={{ mt: 5, mb: 5 }}
-          spacing={2}
-        >
+          spacing={2}>
           <Grid
             item
             xs={6}
             sm={3}
             sx={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              boxShadow: "0.1rem 0.25rem 0.5rem #6b5b5742",
-              backgroundColor: "#e2563042",
-            }}
-          >
-            <Image src={Jesus} alt="Jesus" layout="responsive" quality={50} />
+              borderRadius: '50%',
+              overflow: 'hidden',
+              boxShadow: '0.1rem 0.25rem 0.5rem #6b5b5742',
+              backgroundColor: '#e2563042',
+            }}>
+            <Image
+              src={jesus.src}
+              alt={jesus.alt}
+              layout='responsive'
+              quality={50}
+            />
           </Grid>
           <Grid item xs={12} sm={9}>
             <Font
-              variant="h6"
-              fontWeight="bold"
-              margin="2rem 0"
-              textAlign="center"
-            >
+              variant='h6'
+              fontWeight='bold'
+              margin='2rem 0'
+              textAlign='center'>
               Jesus Morales - Software Engineer
             </Font>
-            <Font variant="body1">
+            <Font variant='body1'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Viverra tellus in hac habitasse. Ac orci phasellus egestas tellus
@@ -126,33 +127,35 @@ const About = () => {
         </Grid>
         <Grid
           container
-          justifyContent="center"
+          justifyContent='center'
           sx={{ mt: 5, mb: 5 }}
-          spacing={2}
-        >
+          spacing={2}>
           <Grid
             item
             xs={6}
             sm={3}
             sx={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              boxShadow: "0.1rem 0.25rem 0.5rem #6b5b5742",
-              backgroundColor: "#e2563042",
-            }}
-          >
-            <Image src={Shayan} alt="Shayan" layout="responsive" quality={50} />
+              borderRadius: '50%',
+              overflow: 'hidden',
+              boxShadow: '0.1rem 0.25rem 0.5rem #6b5b5742',
+              backgroundColor: '#e2563042',
+            }}>
+            <Image
+              src={shayan.src}
+              alt={shayan.alt}
+              layout='responsive'
+              quality={50}
+            />
           </Grid>
           <Grid item xs={12} sm={9}>
             <Font
-              variant="h6"
-              fontWeight="bold"
-              margin="2rem 0"
-              textAlign="center"
-            >
-              Shayan Valaie - Software Developer{" "}
+              variant='h6'
+              fontWeight='bold'
+              margin='2rem 0'
+              textAlign='center'>
+              Shayan Valaie - Software Developer{' '}
             </Font>
-            <Font variant="body1">
+            <Font variant='body1'>
               Shayan is a software engineer from Los Angeles, CA. He has always
               enjoyed learning and understanding how things work and that is
               what brought him into tech. He believes programming gives more
@@ -170,33 +173,35 @@ const About = () => {
 
         <Grid
           container
-          justifyContent="center"
+          justifyContent='center'
           sx={{ mt: 5, mb: 5 }}
-          spacing={2}
-        >
+          spacing={2}>
           <Grid
             item
             xs={6}
             sm={3}
             sx={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              boxShadow: "0.1rem 0.25rem 0.5rem #6b5b5742",
-              backgroundColor: "#e2563042",
-            }}
-          >
-            <Image src={Roop} alt="Roop" layout="responsive" quality={50} />
+              borderRadius: '50%',
+              overflow: 'hidden',
+              boxShadow: '0.1rem 0.25rem 0.5rem #6b5b5742',
+              backgroundColor: '#e2563042',
+            }}>
+            <Image
+              src={roop.src}
+              alt={roop.alt}
+              layout='responsive'
+              quality={50}
+            />
           </Grid>
           <Grid item xs={12} sm={9}>
             <Font
-              variant="h6"
-              fontWeight="bold"
-              margin="2rem 0"
-              textAlign="center"
-            >
-              Roop Hayer - Software Developer{" "}
+              variant='h6'
+              fontWeight='bold'
+              margin='2rem 0'
+              textAlign='center'>
+              Roop Hayer - Software Developer{' '}
             </Font>
-            <Font variant="body1">
+            <Font variant='body1'>
               Roop considers himself an artist who loves coding and
               creating things for the web with his bare hands like painting on a
               canvas. After completing his service in US Air Force, he pursued
@@ -215,33 +220,35 @@ const About = () => {
 
         <Grid
           container
-          justifyContent="center"
+          justifyContent='center'
           sx={{ mt: 5, mb: 5 }}
-          spacing={2}
-        >
+          spacing={2}>
           <Grid
             item
             xs={6}
             sm={3}
             sx={{
-              borderRadius: "50%",
-              overflow: "hidden",
-              boxShadow: "0.1rem 0.25rem 0.5rem #6b5b5742",
-              backgroundColor: "#e2563042",
-            }}
-          >
-            <Image src={Harini} alt="Harini" layout="responsive" quality={50} />
+              borderRadius: '50%',
+              overflow: 'hidden',
+              boxShadow: '0.1rem 0.25rem 0.5rem #6b5b5742',
+              backgroundColor: '#e2563042',
+            }}>
+            <Image
+              src={harini.src}
+              alt={harini.alt}
+              layout='responsive'
+              quality={50}
+            />
           </Grid>
           <Grid item xs={12} sm={9}>
             <Font
-              variant="h6"
-              fontWeight="bold"
-              margin="2rem 0"
-              textAlign="center"
-            >
+              variant='h6'
+              fontWeight='bold'
+              margin='2rem 0'
+              textAlign='center'>
               Harini Singavarapu – Software Developer
             </Font>
-            <Font variant="body1">
+            <Font variant='body1'>
               Harini has completed Engineering from Anna University in India.
               She has worked in Apple as a consultant previously. Harini is a
               passionate full stack developer, mainly focusing on Front end,
@@ -259,7 +266,7 @@ const About = () => {
         </Grid>
       </Container>
     </MainLayout>
-  );
-};
+  )
+}
 
-export default About;
+export default About
