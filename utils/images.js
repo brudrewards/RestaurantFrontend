@@ -36,11 +36,11 @@ class Image {
 }
 
 const images = {
-  rewards: new Image(rewards, 'Brud Logo'),
-  rewardsInverted: new Image(invertedRewards, 'Brud Logo'),
+  rewards: new Image(rewards, "Bru'd rewards Logo"),
+  rewardsInverted: new Image(invertedRewards, "Bru'd rewards Logo"),
   redeem: new Image(redeem, 'Redeem'),
   redeem2: new Image(redeem2, 'Redeem'),
-  logo: new Image(logo, 'Brud Logo'),
+  logo: new Image(logo, "Bru'd rewards Logo"),
   experience: new Image(experience, 'Happy Face'),
   experience2: new Image(experience2, 'Happy Face'),
   earn: new Image(earn, 'Earn'),
