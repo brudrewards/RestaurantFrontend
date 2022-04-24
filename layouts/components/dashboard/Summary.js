@@ -12,7 +12,7 @@ const Summary = () => {
     return (
         <>
             <Grid container>
-                <Grid item lg={8}><Typography variant="body2">Lorem ipsum dolor, sit amet consectetur?</Typography></Grid>
+                <Grid sx={{ marginTop: 2 }} item lg={8}><Typography sx={{ color: "#979B9F" }} variant="body2">Lorem ipsum dolor, sit amet consectetur?</Typography></Grid>
 
                 <Grid item sx={{ margin: 'auto' }} lg={4}><Tabs /></Grid>
 
@@ -39,9 +39,9 @@ const Summary = () => {
 
             </Grid>
 
-            <Grid sx={{ marginTop: 7, }} container>
+            <Grid container sx={{ marginTop: 7, }} >
 
-                <Grid item xs={2}>
+                <Grid item xs={2} lg={2}>
                     <Donut />
                 </Grid>
 
@@ -49,27 +49,36 @@ const Summary = () => {
                     margin: 'auto',
                     color: "#A4B0BE",
                     marginLeft: {
-                        xs: 1,
+                        xs: 2,
                         lg: 5
                     }
-                }} xs={3}>
+                }} xs={5} lg={2}>
 
-                    <Typography variant="body2">New Orders</Typography>
-                    <Typography variant="body2">Open Orders</Typography>
-                    <Typography variant="body2">Close Orders</Typography>
+                    <Typography variant="body2">New Orders (15%)</Typography>
+                    <Typography variant="body2">Open Orders (15%) </Typography>
+                    <Typography variant="body2">Close Orders (15%) </Typography>
 
 
                 </Grid>
-                <Grid item sx={{ margin: 'auto' }} xs={5}>
-                    <LinearProgress sx={{ marginTop: "8px" }} value={80} variant="determinate" title="test" />
+                <Grid item sx={{
+                    margin: 'auto',
+
+                }} xs={3} lg={6} >
+                    <LinearProgress value={80} variant="determinate" title="test" />
                     <LinearProgress sx={{ marginTop: "17px" }} value={80} variant="determinate" title="test" />
-                    <LinearProgress sx={{ marginTop: "16px" }} value={80} variant="determinate" title="test" />
+                    <LinearProgress sx={{ marginTop: "18px" }} value={80} variant="determinate" title="test" />
                 </Grid>
 
+                <Grid item sx={{
+                    margin: 'auto',
+                    color: "#A4B0BE"
 
+                }} xs={1} lg={1} >
+                    <Typography variant="body2">12</Typography>
+                    <Typography variant="body2">18</Typography>
+                    <Typography variant="body2"> 07</Typography>
 
-
-
+                </Grid>
 
             </Grid>
 

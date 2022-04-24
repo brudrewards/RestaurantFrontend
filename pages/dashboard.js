@@ -19,12 +19,16 @@ const Dashboard = () => {
                 marginTop: 5
             }} maxWidth="lg">
                 <Grid container sx={{ marginTop: 2 }}>
-                    <Grid item xs={12} lg={12}>
+                    <Grid item lg={12}>
                         <Typography variant="h4">Dashboard</Typography>
-                        {/* <Week /> */}
+
+                    </Grid>
+                    <Grid item xs={12} lg={12}>
+                        <Week />
+
                     </Grid>
                 </Grid>
-                <Grid container sx={{ marginTop: 2 }}>
+                <Grid container sx={{ marginTop: 3 }}>
 
                     <Typography variant="h4">Orders Summary</Typography>
                     <Summary />

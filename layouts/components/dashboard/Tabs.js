@@ -14,21 +14,17 @@ export default function CenteredTabs() {
         setValue(newValue);
     };
 
-    const handleClick = (e) => {
-        setActive(!active)
-        console.log('hello')
-
-    }
-
-
-
-
-
-
-
-
     return (
-        <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
+
+
+        <Box sx={{
+            width: '100%',
+            bgcolor: 'background.paper',
+            marginTop: {
+                xs: 2
+            }
+
+        }}>
             <Tabs TabIndicatorProps={{
                 style: {
 
@@ -73,9 +69,6 @@ export default function CenteredTabs() {
                     }}>
                         MONTHLY</Typography>} />
             </Tabs>
-
-
-
 
         </Box >
     );
