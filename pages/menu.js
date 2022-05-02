@@ -75,7 +75,7 @@ const Menu = () => {
     return (
         <MainLayout>
             <Container>
-                <Box display='flex' flexDirection='row'>
+                <Box display='flex' flexDirection='row' justifyContent='center'>
                     <List id='categories'>
                         {fakeData.categories.map((category) => (
                             <ListItem button key={category.id}>
@@ -100,6 +100,7 @@ const Menu = () => {
                                         key={item.id}
                                         display='flex'
                                         flexDirection='column'
+                                        my={2}
                                     >
                                         <Box>
                                             <Font variant='heading' my={2}>
@@ -112,6 +113,7 @@ const Menu = () => {
                                         <Box
                                             display='flex'
                                             justifyContent='space-between'
+                                            my={2}
                                         >
                                             <Font variant='heading'>
                                                 {item.price}
