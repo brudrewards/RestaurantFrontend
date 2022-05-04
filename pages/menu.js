@@ -76,7 +76,6 @@ const fakeData = {
 }
 const Menu = () => {
     const [name, setName] = React.useState('')
-
     const [items, setItems] = React.useState(fakeData.items)
     const handleClick = (e) => {
         console.log('hello')
@@ -160,12 +159,22 @@ const Menu = () => {
                                         my={2}
                                         pr='6.5vw'
                                     >
-                                        <Image
-                                            src={images.coffee.src}
-                                            alt={images.coffee.alt}
-                                            quality={50}
-                                            layout='intrinsic'
-                                        ></Image>
+                                        <Box
+                                            borderRadius='20px'
+                                            overflow='hidden'
+                                            height={142}
+                                            width={160}
+                                        >
+                                            <Image
+                                                src={
+                                                    images.coffeePlaceholder.src
+                                                }
+                                                alt={
+                                                    images.coffeePlaceholder.alt
+                                                }
+                                                quality={50}
+                                            ></Image>
+                                        </Box>
                                         <Box
                                             display='flex'
                                             flexDirection='column'
