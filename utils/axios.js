@@ -13,6 +13,13 @@ export const restaurantApi = axios.create({
   baseURL: `${url}/restaurant`,
 })
 
+/**
+ * @param {Object} creds
+ * @param {string} creds.email
+ * @param {string} creds.password
+ * @param {string} creds.deviceToken
+ * @returns Server Response or error
+ */
 export const login = ({ email, password, deviceToken }) => {
   try {
     return restaurantApi.post('/login', {

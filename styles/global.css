@@ -1,18 +1,24 @@
 nav {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-nav.clear {
-  background-color: #fff;
-  margin-top: 10vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
 }
 
 .Register h5 {
   margin-bottom: 100px;
 }
+
 .Register .Submit {
   margin-top: 100px;
 }
@@ -20,6 +26,7 @@ nav.clear {
 .CredLayout main {
   padding: 10px;
 }
+
 .CredLayout .Logo {
   margin-bottom: 50px;
   width: 150px;
@@ -30,9 +37,11 @@ nav.clear {
   position: relative;
   padding: 0px 20px 20px;
 }
+
 .MainLayout footer .Background {
   z-index: -99;
 }
+
 .MainLayout footer span {
   z-index: -99;
 }
@@ -40,4 +49,6 @@ nav.clear {
 a {
   text-decoration: none;
   color: #000;
-}/*# sourceMappingURL=global.css.map */
+  cursor: pointer;
+}
+/*# sourceMappingURL=global.css.map */

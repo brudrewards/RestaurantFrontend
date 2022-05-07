@@ -4,8 +4,5 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    &.clear {
-        background-color: #fff;
-        margin-top: 10vh;
-    }
+    margin-top: 12px;
 }

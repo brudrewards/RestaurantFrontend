@@ -7,10 +7,12 @@ import images from '../../../utils/images'
 const Header = () => {
   const { logo } = images
   return (
-    <Grid component='nav' justifyItems='center' container className='clear'>
+    <Grid component='nav' justifyItems='center' container>
       <Grid item className='Logo'>
         <Link href='/' passHref>
-          <Image src={logo.src} alt={logo.alt} layout='responsive' />
+          <a>
+            <Image src={logo.src} alt={logo.alt} layout='responsive' />
+          </a>
         </Link>
       </Grid>
     </Grid>

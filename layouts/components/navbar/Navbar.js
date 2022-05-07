@@ -7,8 +7,8 @@ const Navbar = ({ search }) => {
   return (
     <Grid component='nav' justifyItems='center'>
       <Grid item width={100}>
-        <NavLink to='/'>
-          <Image src={Logo.src} alt={logo.alt} />
+        <NavLink to='/' passHref>
+          <Image src={logo.src} alt={logo.alt} />
         </NavLink>
       </Grid>
       {search && (

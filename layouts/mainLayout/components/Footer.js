@@ -27,13 +27,15 @@ const Footer = () => {
       />
       <Grid item>
         <Link href='/' passHref>
-          <Image
-            src={rewards.src}
-            alt={rewards.alt}
-            width={224}
-            height={125}
-            style={{ innerWidth: 99 }}
-          />
+          <a>
+            <Image
+              src={rewards.src}
+              alt={rewards.alt}
+              width={224}
+              height={125}
+              style={{ innerWidth: 99 }}
+            />
+          </a>
         </Link>
       </Grid>
       <Grid item>
