@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
-
 
 export default function ScrollableTabsButtonAuto() {
     const [value, setValue] = React.useState(0);
@@ -12,85 +12,52 @@ export default function ScrollableTabsButtonAuto() {
     };
 
     return (
-        <>
+        <Box sx={{ width: "100%", bgcolor: 'background.paper' }}>
+
+
             <Tabs
+                centered
                 value={value}
                 onChange={handleChange}
                 variant="scrollable"
-                scrollButtons
-                allowScrollButtonsMobile
-                aria-label="scrollable force tabs example"
-                TabIndicatorProps={{
-                    style: {
-
-                        backgroundColor: '#D2603D',
-                        borderRadius: '5px',
-                        height: '100%',
-                        opacity: .8,
+                scrollButtons="auto"
+                aria-label="scrollable auto tabs example"
 
 
-
-                    },
-                }}
             >
+                <Box sx={{ display: 'flex' }}>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Mon</Typography>
+                        <Tab label="6" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Tue</Typography>
+                        <Tab label="7" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Wed</Typography>
+                        <Tab label="8" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Thu</Typography>
+                        <Tab label="9" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Fri</Typography>
+                        <Tab label="10" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Sat</Typography>
+                        <Tab label="11" />
+                    </Box>
+                    <Box sx={{ flexDirection: 'column' }}>
+                        <Typography sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 'auto' }} variant="h6">Sun</Typography>
+                        <Tab label="12" />
+                    </Box>
 
 
-
-                <Tab style={{ color: value === 0 ? "white" : "" }} label={
-                    <Typography variant="p" sx={{
-                        zIndex: 1,
-
-                    }}>
-                        6</Typography>} />
-
-
-                <Tab sx={{ marginLeft: 9 }} style={{ color: value === 1 ? "white" : "" }} label={
-                    <Typography variant="p" sx={{
-                        zIndex: 1,
-
-                    }}>
-                        7</Typography>} />
-                <Tab
-                    sx={{ marginLeft: 9 }}
-                    style={{ color: value === 2 ? "white" : "" }}
-                    label={
-                        <Typography variant="p" sx={{
-                            zIndex: 1,
-
-                        }}>
-                            8</Typography>} />
-                <Tab sx={{ marginLeft: 9 }} style={{ color: value === 3 ? "white" : "" }}
-                    label={
-                        <Typography variant="p" sx={{
-                            zIndex: 1,
-
-                        }}>
-                            9</Typography>} />
-                <Tab sx={{ marginLeft: 9 }} style={{ color: value === 4 ? "white" : "" }}
-                    label={
-                        <Typography variant="p" sx={{
-                            zIndex: 1,
-
-                        }}>
-                            10</Typography>} />
-                <Tab sx={{ marginLeft: 9 }} style={{ color: value === 5 ? "white" : "" }}
-                    label={
-                        <Typography variant="p" sx={{
-                            zIndex: 1,
-
-                        }}>
-                            11</Typography>} />
-                <Tab sx={{ marginLeft: 9 }} style={{ color: value === 6 ? "white" : "" }}
-                    label={
-                        <Typography variant="p" sx={{
-                            zIndex: 1,
-
-                        }}>
-                            12</Typography>} />
-
+                </Box>
             </Tabs>
-
-        </>
-
+        </Box>
     );
 }

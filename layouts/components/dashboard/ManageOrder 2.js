@@ -9,7 +9,7 @@ const ManageOrder = () => {
     return (
         <>
 
-            <Grid item xs={6} lg={4}>
+            <Grid item xs={5} lg={4}>
                 <Image src={Frap}
                     width={180}
                     height={200}
