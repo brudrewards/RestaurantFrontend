@@ -71,7 +71,7 @@ const AddItem = () => {
                                     display: 'flex',
                                     justifyContent: 'center'
                                 }}>
-                                    <Image src={ImgUpload}
+                                    <Image src={ImgUpload} alt="image-upload"
                                         width={60}
                                         height={60}
                                         priority={true}

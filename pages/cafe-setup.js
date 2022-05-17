@@ -42,7 +42,7 @@ const Register = () => {
 
                     }} gutterBottom variant="h6">Step 1 of 4</Typography>
 
-                    <Image src={CafeShop}
+                    <Image src={CafeShop} alt="cafe-shop"
                         width={150}
                         height={150}
                         priority={true}
