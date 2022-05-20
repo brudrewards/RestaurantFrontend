@@ -1,5 +1,5 @@
 import React from 'react'
-import Frap from '../../../public/assets/Frap.png'
+import Frap from '../../../public/assets/frap.png'
 import Button from '@mui/material/Button';
 import Image from 'next/image'
 import Grid from '@mui/material/Grid';
