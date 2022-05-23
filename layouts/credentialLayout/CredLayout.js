@@ -1,27 +1,29 @@
+import { Container, Grid } from '@mui/material'
 import Head from 'next/head'
-import Footer from './components/Footer'
+import React from 'react'
 import Header from './components/Header'
 
-const MainLayout = ({
+const CredLayout = ({
     title = '',
     children,
     style,
     description = 'Earn rewards for ordering your favorite coffee from local coffee shops.',
-    search,
     ...props
 }) => {
     return (
-        <div className='MainLayout'>
+        <Grid className='CredLayout'>
             <Head>
                 <title>Brud Rewards {title ? `| ${title}` : ''}</title>
                 <meta name='description' content={description} />
             </Head>
-            <Header search={search} />
-            <main style={{ ...style }}>{children}</main>
-
-            <Footer />
-        </div>
+            <Grid item>
+                <Header />
+            </Grid>
+            <Grid component='main' style={{ ...style }} item>
+                <Container>{children}</Container>
+            </Grid>
+        </Grid>
     )
 }
 
-export default MainLayout
+export default CredLayout
