@@ -1,14 +1,26 @@
-import NavLink from "./NavLink";
-
-const Navbar = () => {
+import { Grid, Input } from '@mui/material'
+import Image from 'next/image'
+import NavLink from './NavLink'
+import images from '../../../utils/images'
+const Navbar = ({ search }) => {
+  const { logo } = images
   return (
-    <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/cafe">Cafe</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/login">Login</NavLink>
-    </nav>
-  );
-};
+    <Grid component='nav' justifyItems='center'>
+      <Grid item width={100}>
+        <NavLink to='/' passHref>
+          <Image src={logo.src} alt={logo.alt} />
+        </NavLink>
+      </Grid>
+      {search && (
+        <Grid item>
+          <Input variant='rounded' placeholder='search items' />
+        </Grid>
+      )}
+      <Grid item>
+        <NavLink to='/login'>Login</NavLink>
+      </Grid>
+    </Grid>
+  )
+}
 
-export default Navbar;
+export default Navbar

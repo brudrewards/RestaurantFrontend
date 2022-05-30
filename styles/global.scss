@@ -1,16 +1,15 @@
 // Component imports
-@import "./components/navbar";
+@import './components/index';
 
 // Page imports
-@import './pages/';
+@import './pages/index';
+
+//Layout import
+@import './layouts/index';
 
 // Global CSS
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
 a {
   text-decoration: none;
-  color: white;
+  color: #000;
+  cursor: pointer;
 }

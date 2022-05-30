@@ -1,31 +1,27 @@
-import Head from "next/head";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-
-
-
+import Head from 'next/head'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 const MainLayout = ({
-  title = "",
-  children,
-  style,
-  description = "Earn rewards for ordering your favorite coffee from local coffee shops.",
-  ...props
+    title = '',
+    children,
+    style,
+    description = 'Earn rewards for ordering your favorite coffee from local coffee shops.',
+    search,
+    ...props
 }) => {
-  return (
-    <div>
+    return (
+        <div className='MainLayout'>
+            <Head>
+                <title>Brud Rewards {title ? `| ${title}` : ''}</title>
+                <meta name='description' content={description} />
+            </Head>
+            <Header search={search} />
+            <main style={{ ...style }}>{children}</main>
 
-      <Head>
-        <title>Brud Rewards {title ? `| ${title}` : ""}</title>
-        <meta name="description" content={description} />
-      </Head>
-      <Header />
-      <main style={{ ...style }}>{children}</main>
+            <Footer />
+        </div>
+    )
+}
 
-      <Footer />
-
-    </div>
-  );
-};
-
-export default MainLayout;
+export default MainLayout
