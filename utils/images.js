@@ -10,6 +10,8 @@ import earn2 from '../public/assets/Earn1.jpg'
 import coffee from '../public/assets/Coffee.png'
 import coffee2 from '../public/assets/Coffee2.png'
 import coffee3 from '../public/assets/Coffee3.png'
+import cafeShop from '../public/assets/cafeShop.png'
+import calendar from '../public/assets/green-calendar.png'
 import cake from '../public/assets/Cake.png'
 import background from '../public/assets/background.jpeg'
 import background2 from '../public/assets/background.png'
@@ -45,6 +47,7 @@ const images = {
   experience2: new Image(experience2, 'Happy Face'),
   earn: new Image(earn, 'Earn'),
   earn2: new Image(earn2, 'Earn'),
+  calendar: new Image(calendar, 'Calendar icon'),
   coffee: new Image(coffee, 'Coffee'),
   coffee2: new Image(coffee2, 'Three Coffee Cups'),
   coffee3: new Image(coffee3, 'Pouring Coffee'),
@@ -64,6 +67,7 @@ const images = {
   jesus: new Image(jesus, 'Jesus Portrait'),
   roop: new Image(roop, 'Roop Portrait'),
   shayan: new Image(shayan, 'Shayan Portrait'),
+  cafeShop: new Image(cafeShop, 'Cafe store front'),
 }
 
 export default images
