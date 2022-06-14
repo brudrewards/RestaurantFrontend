@@ -1,10 +1,13 @@
 import { createTheme } from "@mui/material/styles";
 export const primaryColor = "#F55800";
 const theme = createTheme({
+
   palette: {
     primary: { main: primaryColor },
   },
   typography: {
+
+
     fontSize: 14,
     h1: {
       fontSize: "2.5rem",
